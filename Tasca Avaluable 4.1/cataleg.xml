@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cataleg SYSTEM "cataleg.dtd">
+<cataleg>
+  <single codi="S001">
+    <titol>Step on up</titol>
+    <descripcio>Single de prova del grup The Living Tombstone</descripcio>
+    <pais>Israel</pais>
+    <idioma>Anglès</idioma>
+    <genere>Electronic</genere>
+    <grup>The Living Tombstone</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>Yoav Landau</nom>
+      </membre>
+      <membre sexe="home">
+        <nom>Sam Haft</nom>
+      </membre>
+    </membres>
+    <durada>3</durada>
+  </single>
+
+  <album codi="A001">
+    <titol>Album Exemple</titol>
+    <pais>Israel</pais>
+    <idioma>Anglès</idioma>
+    <genere>Electronic</genere>
+    <grup>The Living Tombstone</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>Yoav Landau</nom>
+      </membre>
+      <membre sexe="home">
+        <nom>Sam Haft</nom>
+      </membre>
+    </membres>
+    <numero_cancons>2</numero_cancons>
+    <titols_cancons>
+      <canco numero="1">
+        <titol_canco>Long Time Friends</titol_canco>
+        <durada_canco>4</durada_canco>
+      </canco>
+      <canco numero="2">
+        <titol_canco>Be alone</titol_canco>
+        <durada_canco>3</durada_canco>
+      </canco>
+    </titols_cancons>
+  </album>
+</cataleg>
