@@ -6,7 +6,7 @@
     <descripcio>Single de prova del grup The Living Tombstone</descripcio>
     <pais>Israel</pais>
     <idioma>Anglès</idioma>
-    <genere>Electronic</genere>
+    <genere><pop/></genere>
     <grup>The Living Tombstone</grup>
     <membres>
       <membre sexe="home">
@@ -23,7 +23,7 @@
     <titol>Album Exemple</titol>
     <pais>Israel</pais>
     <idioma>Anglès</idioma>
-    <genere>Electronic</genere>
+    <genere><pop/></genere>
     <grup>The Living Tombstone</grup>
     <membres>
       <membre sexe="home">

@@ -1,9 +1,9 @@
 <!ELEMENT cataleg (single | album)+>
 
-<!ELEMENT single (titol, descripcio?, pais, idioma, genere*, grup, membres, durada)>
+<!ELEMENT single (titol, descripcio?, pais, idioma, genere?, grup, membres, durada)>
 <!ATTLIST single codi CDATA #REQUIRED>
 
-<!ELEMENT album (titol, descripcio?, pais, idioma, genere*, grup, membres, numero_cancons, titols_cancons)>
+<!ELEMENT album (titol, descripcio?, pais, idioma, genere?, grup, membres, numero_cancons, titols_cancons)>
 <!ATTLIST album codi CDATA #REQUIRED>
 
 <!ELEMENT membres (membre+)>
@@ -18,7 +18,18 @@
 <!ELEMENT descripcio (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT idioma (#PCDATA)>
-<!ELEMENT genere (#PCDATA)>
+
+<!ELEMENT genere (classica | jazz | blues | gospel | soul | pop | rockandroll | country)>
+
+<!ELEMENT classica EMPTY>
+<!ELEMENT jazz EMPTY>
+<!ELEMENT blues EMPTY>
+<!ELEMENT gospel EMPTY>
+<!ELEMENT soul EMPTY>
+<!ELEMENT pop EMPTY>
+<!ELEMENT rockandroll EMPTY>
+<!ELEMENT country EMPTY>
+
 <!ELEMENT grup (#PCDATA)>
 <!ELEMENT nom (#PCDATA)>
 <!ELEMENT durada (#PCDATA)>
