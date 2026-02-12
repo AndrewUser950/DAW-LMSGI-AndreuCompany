@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cataleg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="cataleg.xsd">
+
+  <single codi="S002">
+    <titol>Call On The Undertaker</titol>
+    <descripcio>Cançó inspirada en l'univers de Helldivers 2</descripcio>
+    <pais>EUA</pais>
+    <idioma>angles</idioma>
+    <genere>rock_and_roll</genere>
+    <grup>JT Music</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>JT Machinima</nom>
+      </membre>
+      <membre sexe="home">
+        <nom>Andreas</nom>
+      </membre>
+    </membres>
+    <durada>3.58</durada>
+  </single>
+
+  <album codi="A002">
+    <titol>Helldivers 2: To Liberty and Beyond</titol>
+    <descripcio>Àlbum inspirat en les missions Helldiver i la democràcia gestionada</descripcio>
+    <pais>EUA</pais>
+    <idioma>angles</idioma>
+    <genere>rock_and_roll</genere>
+    <grup>JT Music</grup>
+    <membres>
+      <membre sexe="home">
+        <nom>JT Machinima</nom>
+      </membre>
+      <membre sexe="home">
+        <nom>Andreas</nom>
+      </membre>
+    </membres>
+    <numero_cançons>3</numero_cançons>
+    <titols_cançons>
+      <canço numero="1">
+        <titol_canço>Call On The Undertaker</titol_canço>
+        <durada_canço>3.58</durada_canço>
+      </canço>
+      <canço numero="2">
+        <titol_canço>J.O.E.L</titol_canço>
+        <durada_canço>4.12</durada_canço>
+      </canço>
+      <canço numero="3">
+        <titol_canço>To Liberty and Beyond</titol_canço>
+        <durada_canço>3.47</durada_canço>
+      </canço>
+    </titols_cançons>
+  </album>
+
+</cataleg>
