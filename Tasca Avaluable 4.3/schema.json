@@ -55,7 +55,7 @@
                   "properties": {
                     "officer_id": { "type": "integer" },
                     "end_date": {
-                      "type": "string",
+                      "type": ["string", "null"],
                       "format": "date"
                     },
                     "first_name_off": { "type": "string" },
@@ -82,3 +82,4 @@
     }
   }
 }
+
