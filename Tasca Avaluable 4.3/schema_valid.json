@@ -1,5 +1,6 @@
 {
-  "customers": [
+  "$schema": "customer.schema.json",
+  "customer": [
     {
       "cust_id": 1,
       "address": "47 Mockingbird Ln",
@@ -7,7 +8,6 @@
       "fed_id": "111-11-1111",
       "postal_code": "01940",
       "state": "MA",
-      "type": "individual",
       "individual": {
         "first_name_ind": "James",
         "last_name_ind": "Hadley",
@@ -21,7 +21,6 @@
       "fed_id": "04-1111111",
       "postal_code": "01901",
       "state": "NH",
-      "type": "business",
       "business": {
         "name": "Chilton Engineering",
         "state_id": "12-345-678",
