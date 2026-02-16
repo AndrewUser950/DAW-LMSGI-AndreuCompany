@@ -1,0 +1,41 @@
+{
+  "customers": [
+    {
+      "cust_id": 1,
+      "address": "47 Mockingbird Ln",
+      "city": "Lynnfield",
+      "fed_id": "111-11-1111",
+      "postal_code": "01940",
+      "state": "MA",
+      "type": "individual",
+      "individual": {
+        "first_name_ind": "James",
+        "last_name_ind": "Hadley",
+        "birth_date": "1972-04-22"
+      }
+    },
+    {
+      "cust_id": 10,
+      "address": "43 State St",
+      "city": "Lynn",
+      "fed_id": "04-1111111",
+      "postal_code": "01901",
+      "state": "NH",
+      "type": "business",
+      "business": {
+        "name": "Chilton Engineering",
+        "state_id": "12-345-678",
+        "incorp_date": "1995-05-01",
+        "officer": [
+          {
+            "officer_id": 1,
+            "first_name_off": "John",
+            "last_name_off": "Chilton",
+            "start_date": "1995-05-01",
+            "title": "President"
+          }
+        ]
+      }
+    }
+  ]
+}
