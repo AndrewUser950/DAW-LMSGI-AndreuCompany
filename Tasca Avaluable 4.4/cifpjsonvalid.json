@@ -27,6 +27,11 @@
           "id_assignatura": 101,
           "nom_assignatura": "Programació",
           "cicle": "DAM"
+        },
+        {
+          "id_assignatura": 102,
+          "nom_assignatura": "Bases de Dades",
+          "cicle": "DAW"
         }
       ]
     }
