@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE cifp SYSTEM "cifp.dtd">
-
 <cifp>
   <alumne id="1">
     <nom>Joan</nom>
@@ -8,11 +7,20 @@
     <data_matricula>2024-07-10</data_matricula>
     <curs>DAM</curs>
   </alumne>
-
+  <alumne id="10">
+    <nom>Laura</nom>
+    <llinatges>Martinez Ruiz</llinatges>
+    <data_matricula>2023-09-15</data_matricula>
+    <curs>DAW</curs>
+  </alumne>
   <professor id="5">
     <nom>Andreu</nom>
     <llinatges>Campos Company</llinatges>
     <data_incorporacio>2025-09-01</data_incorporacio>
     <departament>Informàtica</departament>
+    <assignatura id_assignatura="101">
+      <nom_assignatura cicle="DAM">Programació</nom_assignatura>
+      <data_inici>2024-09-15</data_inici>
+    </assignatura>
   </professor>
 </cifp>
