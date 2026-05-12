@@ -1,0 +1,1 @@
+max(collection("Company")//edat)
